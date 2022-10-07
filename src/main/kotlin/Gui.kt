@@ -8,8 +8,8 @@ import javax.swing.JFrame
 private lateinit var frame: JFrame
 private lateinit var button: JButton
 
-fun load(title:String) {
-    frame = JFrame(title)
+fun loadGui() {
+    frame = JFrame("Beeper!")
     frame.size = Dimension(320, 300)
     frame.defaultCloseOperation = JFrame.EXIT_ON_CLOSE;
 

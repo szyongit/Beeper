@@ -1,7 +1,7 @@
 import java.awt.Toolkit
 
 fun main(args:Array<String>) {
-    load("Beeper!")
+    loadGui()
 }
 
 fun getToolkit():Toolkit {
